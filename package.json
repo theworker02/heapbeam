@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/heapbeam",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Heap CSV/TSV beam tables for quick inspection and cleanup.",
+  "bin": {
+    "heapbeam": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/heapbeam.git"
+  },
+  "homepage": "https://theworker02.github.io/heapbeam/",
+  "keywords": [
+    "heap",
+    "beam",
+    "csv",
+    "cli",
+    "toolkit"
+  ]
+}
